@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body {
+      border: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 900px;
+    }
+    .button {
+      margin-top: 10px;
+      border: 1px solid #000;
+      border-radius: 6px;
+      padding: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <label for="input">请输入需要转换的网址：
+        <input type="text" id="input">
+        
+    </label>
+    <div class="button" id="button">点击转换</div>
+    <canvas id="canvas"></canvas>
+  </div>
+<script type="text/javascript" src="main.js"></script></body>
+</html>
